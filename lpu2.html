@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport"content="width=device-width,initial-scale=1.0">
+    <title>ADMISSION FORM</title>
+
+</head>
+<body>  
+    <center><h3>ADMISSION FORM</h3></center>
+    <form method="get">
+        <label for="name">NAME:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">EMAIL:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="username">USERNAME:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">PASSWORD:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="phone">PHONE NUMBER:</label>
+        <input type="number" id="phone" name="phone" min="1" max="100000000000000000" required><br><br>
+        <input type="time" id="time" name="time"><br><br>
+        <input type="date" id="date" name="date"><br><br>
+        <input type="color" id="color" name="color"><br><br>
+        <input type="file" accept=".pdf,.doc"><br><br>
+
+        <label>GENDER:</label><br>
+        <input type="radio" name="gender" value="male">
+        <label>MALE</label>
+        <input type="radio" name="gender" value="female">
+        <label>FEMALE</label><br><br>
+
+        <label>HOBBIES:</label><br>
+        <input type="checkbox" name="hobby" value="study">
+        <label>Study</label><br>
+        <input type="checkbox" name="hobby" value="swimming">
+        <label>Swimming</label><br>
+        <input type="checkbox" name="hobby" value="running">
+        <label>Running</label><br><br>
+        <label>SEARCH:</label>
+        <input type="search" name="search" placeholder="Search..."><br><br>
+        <label>URL:</label>
+        <input type="url" name="url" placeholder="url"><br><br>
+        <label>MESSAGE:</label>
+        <label>TEXTAREA:</label>
+        <textarea rows="5" cols="40"> </textarea>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </form>
+</body>
+</html>
